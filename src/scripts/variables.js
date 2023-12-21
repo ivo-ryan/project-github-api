@@ -1,7 +1,5 @@
-const baseUrl = 'https://api.github.com/users'
-const repositoriesQuantity = 10
-const eventsQuantity = 10
-const itens = 10
+export const baseUrl = 'https://api.github.com/users';
+export const repositoriesQuantity = 10;
+export const eventsQuantity = 10;
+export const itens = 10;
 
-
-export { baseUrl, repositoriesQuantity, eventsQuantity, itens}

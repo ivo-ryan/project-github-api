@@ -248,3 +248,19 @@ main {
     padding: 0;
   }
 }
+
+.hide{
+  display: none;
+}
+
+#loader i {
+  font-size: 40px;
+  color: mediumslateblue;
+  animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
